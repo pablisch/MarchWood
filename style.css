@@ -1,16 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  width: 97vw;
+  /* height: 100vh; */
+  margin: 0 auto;
+  overflow: auto;
 }
+
+.streetView {
+  width: 100%;
+  height: 95vh;
+}
+
+.sizeL {
+  position: relative;
+  visibility: inherit;
+  text-align: center;
+  margin: 15px auto 0;
+  width: 100%;
+  flex: 1;
+}
+
+.sizeM {
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  margin: 15px auto 0;
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+.sizeS {
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  margin: 15px auto 0;
+  width: 100%;
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .sizeL {
+    visibility: hidden;
+    position: absolute;
+  }
+  .sizeM {
+    visibility: hidden;
+    position: absolute;
+  }
+  .sizeS {
+    visibility: inherit;
+    position: relative;
+  }
+}
+/* 
+@media (max-width: 600px) {
+  .sizeL {
+    visibility: hidden; */
+    /* position: absolute;
+  }
+  .sizeM {
+    visibility: inherit;
+    position: relative;
+  }
+  .sizeS {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+ */
