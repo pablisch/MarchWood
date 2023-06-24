@@ -8,7 +8,9 @@ This web page is currently deployed at [https://pablisch.github.io/MarchWood/](h
 
 ## Example use
 
+![March Wood](images/march-wood-example.png)
+
 Scroll and pan to view the 360 degrees image.
 The image can be paned horizontally and vertically from right down to the ground to right up to the sky, and 360 degrees around.
 
-![March Wood](images/march-wood-example.png)
+![March Wood panning](images/marchwood.gif)
