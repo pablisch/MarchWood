@@ -11,12 +11,13 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: auto;
+  text-align: center;
 }
 
 .sizeL {
   position: relative;
   visibility: inherit;
-  text-align: center;
   margin: 0;
+  padding: 0;
   flex: 1;
 }
