@@ -3,25 +3,20 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 97vw;
-  /* height: 100vh; */
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
   overflow: auto;
-}
-
-.streetView {
-  width: 100%;
-  height: 95vh;
 }
 
 .sizeL {
   position: relative;
   visibility: inherit;
   text-align: center;
-  margin: 15px auto 0;
-  width: 100%;
+  margin: 0;
   flex: 1;
 }
